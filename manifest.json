@@ -1,0 +1,32 @@
+{
+    "name": "KupujemProdajem Posmatrac",
+    "version": "1.0",
+    "description": "Ekstenzija za pracenje oglasa na KP",
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ],
+        "persistent": false
+    },
+    "permissions": [
+        "activeTab",
+        "declarativeContent",
+        "storage"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "img/kp16.png",
+            "32": "img/kp32.png",
+            "48": "img/kp48.png",
+            "128": "img/kp128.png"
+        }
+    },
+    "icons": {
+        "16": "img/kp16.png",
+        "32": "img/kp32.png",
+        "48": "img/kp48.png",
+        "128": "img/kp128.png"
+    },
+    "manifest_version": 2
+}

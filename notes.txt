@@ -1,0 +1,10 @@
+$_GET params (noviji oglasi prvo):
+action: list
+data[page]: 1
+data[prev_keywords]: harley benton
+data[order]: posted desc
+submit[search]: Traži
+dummy: name
+data[keywords]: harley benton
+
+#searchResultTableHolder > #adListContainer > #adDescription+"oglas id"
