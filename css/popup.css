@@ -83,11 +83,18 @@ button:hover {
     font-weight: bold;
 }
 
+#appinfologo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 7px; 
+}
+
 #appinfo {
     align-items: flex-end;
-    background-color: #444;
+    background-color: #ffffff;
     border: 0;
-    color: rgb(202, 193, 193);
+    color: rgb(68, 68, 68);
     display: flex;
     font-size: smaller;
     justify-content: center;
@@ -107,4 +114,24 @@ button:hover {
 
 .list-component-title {
     font-weight: 600;
+}
+
+svg {
+    margin-left: 5px;
+    width: 13px;
+    height: 13px;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+svg:hover {
+    color: #dc3545;
+}
+
+.color-kupujem {
+    color: rgb(255, 31, 0);
+}
+
+.color-prodajem {
+    color: rgb(0, 51, 104);
 }
