@@ -7,4 +7,4 @@ Ekstenzija ima sledeće funksionalnosti:
 * obaveštenje, u vidu bedža, da je posmatrani keyword dodat
 * ispis stanja dodatih artikala od zadnje posete sajtu
 
-Nije planirano dalje razvijanje ekstenzije!
+**Nije planirano dalje razvijanje ekstenzije!**
